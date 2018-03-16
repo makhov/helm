@@ -34,7 +34,7 @@ import (
 
 // maxMsgSize use 20MB as the default message size limit.
 // grpc library default is 4MB
-const maxMsgSize = 1024 * 1024 * 20
+const maxMsgSize = 1024 * 1024 * 200
 
 // Client manages client side of the Helm-Tiller protocol.
 type Client struct {
